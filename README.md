@@ -59,6 +59,17 @@ The analysis includes:
 * Summary statistics
 * Data visualizations
 
+## 📌 Key Insights
+
+* A total of **1,000 books** were collected from 50 pages of the Books to Scrape website.
+* Book prices range from approximately **£10 to £60**.
+* Books are distributed across all **five rating levels**.
+* The average price is relatively similar across different rating groups.
+* The correlation between **book price and rating is 0.028**, indicating a very weak relationship.
+* Higher-rated books are **not necessarily more expensive**.
+* Overall, the analysis suggests that **book rating has little influence on book price** in this dataset.
+
+
 ## 📁 Project Structure
 
 ```text
