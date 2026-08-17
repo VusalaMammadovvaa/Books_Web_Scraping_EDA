@@ -2,22 +2,25 @@
 
 ## 📌 Project Overview
 
-This project focuses on collecting and analyzing book data from the **Books to Scrape** website.
+This project demonstrates an end-to-end data analysis workflow using book data collected from the **Books to Scrape** website.
 
-The main goal is to practice web scraping, data cleaning, exploratory data analysis (EDA), and data visualization using Python.
+The project combines **web scraping, data cleaning, exploratory data analysis (EDA), statistical analysis, and data visualization** to investigate book prices, customer ratings, and their relationship.
+
+The main objective is to identify pricing patterns, rating distributions, potential outliers, and whether customer ratings are associated with higher book prices.
 
 ## 🎯 Objectives
 
-* Collect book information from a website using web scraping
+* Collect book information using web scraping
 * Clean and preprocess the collected data
-* Explore book prices and ratings
-* Identify patterns and trends in the dataset
-* Visualize the results using charts
-* Generate insights from the collected data
+* Analyze book prices and customer ratings
+* Investigate the relationship between price and rating
+* Identify potential price outliers
+* Create informative data visualizations
+* Generate meaningful insights from the dataset
 
 ## 📊 Dataset
 
-The dataset contains information about books collected from the Books to Scrape website.
+The dataset was collected from the **Books to Scrape** website and contains information about **1,000 books collected from 50 pages**.
 
 ### Features
 
@@ -30,13 +33,13 @@ The dataset contains information about books collected from the Books to Scrape 
 
 ## 🛠️ Technologies Used
 
-* Python
-* Requests
-* BeautifulSoup
-* Pandas
-* NumPy
-* Matplotlib
-* Jupyter Notebook
+* **Python**
+* **Requests** — Web requests
+* **BeautifulSoup** — HTML parsing and web scraping
+* **Pandas** — Data manipulation and analysis
+* **NumPy** — Numerical operations
+* **Matplotlib** — Data visualization
+* **Jupyter Notebook** — Interactive analysis environment
 
 ## 🔎 Project Workflow
 
@@ -45,31 +48,45 @@ The dataset contains information about books collected from the Books to Scrape 
 3. Data cleaning
 4. Data preprocessing
 5. Exploratory Data Analysis
-6. Data visualization
-7. Insight generation
+6. Statistical analysis
+7. Data visualization
+8. Insight generation
 
 ## 📈 Exploratory Data Analysis
 
-The analysis includes:
+The analysis covers the following areas:
 
-- **Price Analysis** — Distribution and statistical summary of book prices
-- **Rating Analysis** — Distribution of books across rating levels
-- **Price vs Rating** — Analysis of the relationship between book price and rating
-- **Outlier Analysis** — Identification of potential price outliers
-- **Summary Statistics** — Descriptive statistics of the dataset
-- **Data Visualization** — Charts and plots to support the analysis
-
+* **Price Analysis** — Distribution, range, mean, and median of book prices
+* **Rating Analysis** — Distribution of books across five rating levels
+* **Price vs Rating** — Investigation of the relationship between book price and customer rating
+* **Correlation Analysis** — Measurement of the relationship between price and rating
+* **Outlier Analysis** — Identification of potential price outliers using the IQR method
+* **Summary Statistics** — Descriptive statistics for numerical variables
+* **Data Visualization** — Charts used to communicate the main findings
 
 ## 📌 Key Insights
 
-* A total of **1,000 books** were collected from 50 pages of the Books to Scrape website.
+* A total of **1,000 books** were collected from **50 pages** of the Books to Scrape website.
 * Book prices range from approximately **£10 to £60**.
-* Books are distributed across all **five rating levels**.
+* The dataset contains books across all **five rating levels**.
 * The average price is relatively similar across different rating groups.
-* The correlation between **book price and rating is 0.028**, indicating a very weak relationship.
-* Higher-rated books are **not necessarily more expensive**.
-* Overall, the analysis suggests that **book rating has little influence on book price** in this dataset.
+* The correlation between **book price and rating is 0.028**, indicating a **very weak relationship**.
+* Higher-rated books are not necessarily more expensive.
+* The IQR-based analysis identified **no significant price outliers** in the dataset.
+* Overall, the analysis suggests that **customer rating has little influence on book price** within this dataset.
 
+## 📊 Results
+
+The analysis provides visual and statistical insights into:
+
+* Book price distribution
+* Rating distribution
+* Average price by rating
+* Relationship between price and rating
+* Price outlier detection
+* Descriptive statistics
+
+All analysis results and visualizations are available in the Jupyter Notebook.
 
 ## 📁 Project Structure
 
@@ -86,15 +103,18 @@ Books_Web_Scraping_EDA/
 
 ## 💡 Key Skills Demonstrated
 
-This project demonstrates practical skills in:
+This project demonstrates practical experience in:
 
 * Web Scraping
+* Data Collection
 * Data Cleaning
 * Exploratory Data Analysis
+* Statistical Analysis
 * Data Visualization
 * Python Programming
 * Pandas Data Manipulation
-* Statistical Analysis
+* Data Interpretation
+* Insight Generation
 
 ## 👩‍💻 Author
 
