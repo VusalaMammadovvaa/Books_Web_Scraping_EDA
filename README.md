@@ -52,12 +52,13 @@ The dataset contains information about books collected from the Books to Scrape 
 
 The analysis includes:
 
-* Distribution of book prices
-* Distribution of book ratings
-* Relationship between price and rating
-* Identification of potential outliers
-* Summary statistics
-* Data visualizations
+- **Price Analysis** — Distribution and statistical summary of book prices
+- **Rating Analysis** — Distribution of books across rating levels
+- **Price vs Rating** — Analysis of the relationship between book price and rating
+- **Outlier Analysis** — Identification of potential price outliers
+- **Summary Statistics** — Descriptive statistics of the dataset
+- **Data Visualization** — Charts and plots to support the analysis
+
 
 ## 📌 Key Insights
 
