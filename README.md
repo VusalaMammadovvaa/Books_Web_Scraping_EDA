@@ -36,8 +36,7 @@ The dataset was collected from the **Books to Scrape** website and contains info
 * **Python**
 * **Requests** — Web requests
 * **BeautifulSoup** — HTML parsing and web scraping
-* **Pandas** — Data manipulation and analysis
-* **NumPy** — Numerical operations
+* **Pandas** — Data manipulation and analysi
 * **Matplotlib** — Data visualization
 * **Jupyter Notebook** — Interactive analysis environment
 
